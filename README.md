@@ -26,7 +26,7 @@ y = \frac{x - \mu}{\sqrt{\sigma^2 + \epsilon}} \cdot \text{weight} + \text{bias}
 *   **weight**：缩放参数
 
 ### 基础归一化操作：
-1.  创建一个长度为`ndim`的全1张量作为权重
+1.  创建一个长度为`ndim`的全1张量作为权重。
 2.  创建一个长度为`ndim`的全0张量作为偏置
 
 ### 前向传播
