@@ -27,7 +27,7 @@ y = \frac{x - \mu}{\sqrt{\sigma^2 + \epsilon}} \cdot \text{weight} + \text{bias}
 
 ### 基础归一化操作：
 1.  创建一个长度为`ndim`的全1张量作为权重。
-2.  创建一个长度为`ndim`的全0张量作为偏置
+2.  创建一个长度为`ndim`的全0张量作为偏置。
 
 ### 前向传播
 执行层归一化计算，输入和输出的形状相同，均为`(batch_size, seq_len, n_embd)`。
